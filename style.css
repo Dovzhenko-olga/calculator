@@ -21,7 +21,8 @@ ul {
   border: 1px solid rgba(0, 0, 0, 0.12);
   overflow: hidden;
   border-radius: 5px;
-  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05),
+    inset 0px 0px 3px 7px rgba(0, 0, 0, 0.05);
 }
 .calculator__buttons {
   display: grid;
@@ -62,11 +63,11 @@ ul {
   text-align: right;
   padding: 20px;
 }
-/* .calculator__panel__math-line {  
-} */
 .calculator__panel__result {
   position: absolute;
   right: 20px;
+  left: 20px;
   bottom: 20px;
   font-size: 34px;
+  word-wrap: break-word;
 }
